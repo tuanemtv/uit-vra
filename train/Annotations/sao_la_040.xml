@@ -1,0 +1,26 @@
+<annotation verified="no">
+	<folder>train</folder>
+	<filename>sao_la_040.jpeg</filename>
+	<path>/mnt/ae07505d-1111-4dde-9629-6813bfe96cc6/Download/downthemall/sao la/train/sao_la_040.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>225</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sao_la</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>9</xmin>
+			<ymin>27</ymin>
+			<xmax>199</xmax>
+			<ymax>187</ymax>
+		</bndbox>
+	</object>
+</annotation>
