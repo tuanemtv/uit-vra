@@ -1,5 +1,5 @@
 
-
+Mô tả quy trình thực hiện bài toán nhận dạng đối tượng trong ảnh, video (tạo tập dữ liệu, train model, đánh gía kết quả train, sử dụng model vào bài toán thực tế)
 
 ## Yêu cầu ứng dụng
  Python 3.5, Tensorflow 1.2, Opencv 3.1
@@ -21,8 +21,12 @@ flow --model cfg/tiny-yolo-voc-2c.cfg --load bin/tiny-yolo-voc.weights --train -
 ```
 Kết quả log của quá trình train xem ở [train/train-log.txt](https://github.com/tuanemtv/uit-vra/blob/master/train/train-log.txt)
 
-### Video
+### Test model
+```bash
+flow --imgdir test_img/ --model cfg/tiny-yolo-voc-2c.cfg --load bin/tiny-yolo-voc.weights --json
+```
+Các kết quả test có thể xem trong các folder: test_img, sample_img, sign_img
 
-### Độ chính xác
-
+### Sử dụng
+Xem thêm hướng dẫn sử dụng [darkflow](https://github.com/thtrieu/darkflow) để biết cách thực hiện tích hợp vào các hệ thống khác.
  
