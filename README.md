@@ -2,7 +2,7 @@
 Mô tả quy trình thực hiện bài toán nhận dạng đối tượng trong ảnh, video (tạo tập dữ liệu, train model, đánh gía kết quả train, sử dụng model vào bài toán thực tế)
 
 ## Yêu cầu ứng dụng
- Python 3.5, Tensorflow 1.2, OpenCV 3.1 và các thư viện liên quan đến source liên quan
+ Python 3.5, Tensorflow 1.2, OpenCV 3.1 và các thư viện liên quan đến mã nguổn sử dụng
 
 ## Xây dựng bộ dữ liệu
 - Dữ liệu train được xây dựng theo chuẩn của pascal với 2 classes: sếu đầu đỏ và sao la 
